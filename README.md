@@ -1,2 +1,2 @@
 # comments-widget-react-redux
-Created with CodeSandbox
+https://vadimgordenya.github.io/comments-widget-react-redux/
