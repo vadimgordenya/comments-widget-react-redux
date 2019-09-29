@@ -1,0 +1,70 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+.add-comment-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.add-comment-wrapper input {
+  padding: 10px 15px;
+  width: 100%;
+  outline: none;
+  margin-bottom: 15px;
+}
+.add-comment-wrapper textarea {
+  width: 100%;
+  min-height: 50px;
+  outline: none;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+.add-comment-wrapper button {
+  padding: 10px 15px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.7s;
+  border: none;
+  outline: none;
+}
+.add-comment-wrapper button:hover {
+  background: darkgreen;
+  color: #ffffff;
+}
+.comment-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-between;
+  border: 2px solid green;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+.comment-item__author {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+.comment-item__data {
+  width: 100%;
+  text-align: left;
+}
+.remove-item {
+  background: darkred;
+  border: 2px solid transparent;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.remove-item:hover {
+  background: #ffffff;
+  border: 2px solid darkred;
+  color: darkred;
+}
